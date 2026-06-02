@@ -1,1 +1,69 @@
-<!DOCTYPE html><html><body><p>Inizializzazione...</p></body></html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CryptoWatch Report</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 16px; }
+  .container { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .ts { color: #64748b; font-size: 13px; margin-bottom: 20px; }
+  .card { background: #1e293b; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+  .card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .05em;
+              color: #64748b; margin-bottom: 10px; }
+  .scores { display: flex; gap: 12px; flex-wrap: wrap; }
+  .score-item { background: #0f172a; border-radius: 8px; padding: 8px 14px; text-align: center; }
+  .score-item .val { font-size: 22px; font-weight: 700; }
+  .score-item .lbl { font-size: 11px; color: #64748b; margin-top: 2px; }
+  .postura { font-size: 22px; font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; }
+  tr:not(:last-child) td { border-bottom: 1px solid #334155; }
+  .pb { color: #94a3b8; font-size: 14px; }
+  .footer { text-align: center; color: #334155; font-size: 12px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📊 CryptoWatch</h1>
+  <p class="ts">Aggiornato: 02/06/2026 11:20 UTC</p>
+
+  <div class="card">
+    <h2>Indicatori macro</h2>
+    <div class="scores">
+      <div class="score-item"><div class="val">50.0</div><div class="lbl">Macro</div></div>
+      <div class="score-item"><div class="val">30.0</div><div class="lbl">On-chain</div></div>
+      <div class="score-item"><div class="val">90.0</div><div class="lbl">Sentiment</div></div>
+      <div class="score-item"><div class="val">23.0</div><div class="lbl">Fear &amp; Greed</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Ciclo di mercato</h2>
+    <p>⏰ <strong>MARKDOWN</strong> (75% confidenza)</p>
+    <p style="margin-top:6px;color:#94a3b8">Scenario: <strong style="color:#e2e8f0">CICLO_ROTTO</strong> — 36%</p>
+  </div>
+
+  <div class="card">
+    <h2>Regime BTC (Nucleo)</h2>
+    <p class="postura" style="color:#94a3b8">🔵 TRANSIZIONE</p>
+    <p style="color:#64748b;font-size:13px;margin-top:4px"></p>
+    
+  </div>
+
+  <div class="card">
+    <h2>Segnali token</h2>
+    <table><tr><td style="padding:8px 12px;font-weight:600">🔴 BTC</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">39/100</td><td style="padding:8px 12px"><span style="background:#bbf7d0;color:#166534;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">AFFIDABILE WR59%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 ETH</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#fef9c3;color:#713f12;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">MARGINALE WR57%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 TAO</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 POL</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 DOGE</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 ADA</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">NON AFFIDABILE WR35%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 BGB</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 PEPE</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 ICP</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 SOL</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">NON AFFIDABILE WR48%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 STG</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 ARB</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 BNB</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#bbf7d0;color:#166534;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">AFFIDABILE WR62%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 NEAR</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 DUSK</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 LINK</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#fee2e2;color:#991b1b;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">NON AFFIDABILE WR40%</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 XLM</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 ENA</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 FET</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 INJ</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 PENGU</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 OP</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">52/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr><tr><td style="padding:8px 12px;font-weight:600">🔴 CRO</td><td style="padding:8px 12px;color:#ef4444;font-weight:700">VENDI</td><td style="padding:8px 12px;color:#64748b">44/100</td><td style="padding:8px 12px"><span style="background:#f1f5f9;color:#475569;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:600">SCONOSCIUTO</span></td></tr></table>
+  </div>
+
+  <div class="card">
+    <h2>Piano B — Altcoin</h2>
+    <p class="pb">3/4 segnali attivi — Alloca 15% in altcoin</p>
+  </div>
+
+  <p class="footer">cryptowatch · dati solo informativi · non consulenza finanziaria</p>
+</div>
+</body>
+</html>
